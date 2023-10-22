@@ -14,14 +14,25 @@
     <title>Rock-Paper-Scissors-Lizard-Spock Game</title>
 </head>
 <body>
-<div class="game-container">
     <div id="message-container">
         <div id="welcome-message">
             Welcome to the Rock-Paper-Scissors-Lizard-Spock Game!
             <button id="start-button">Start Game</button>
         </div>
     </div>
-</div>
+    <div class="game-container">
+        <h1></h1>
+        <button id="rock">Rock</button>
+        <button id="paper">Paper</button>
+        <button id="scissors">Scissors</button>
+        <button id="lizard">Lizard</button>
+        <button id="spock">Spock</button>
+        <p>Computer's choice: <span id="computer-choice"></span></p>
+        <p id="result"></p>
+        <p>Tries left: <span id="tries"></span></p>
+        <p><span id="score"></span></p>
+        <button id="play-again">Play Again</button>
+    </div>
 
     <script scr="assets/js/script.js"></script>
 </body>
