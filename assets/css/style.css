@@ -57,3 +57,28 @@
 #tries {
     color: red;
 }
+
+/*Style message area*/
+#message-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Initially hide the message container */
+    display: none;
+}
+
+#welcome-message {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    color: #051937;
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
