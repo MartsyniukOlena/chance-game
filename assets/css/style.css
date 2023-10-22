@@ -9,7 +9,7 @@
 }
 
 /*Style game area*/
-.game-area {
+body {
     background-image: linear-gradient(to right top, #051937, #003e61, #006679, #008e78, #56b265);
     background-repeat: no-repeat;
     height: 100vh;
@@ -17,7 +17,7 @@
 }
 
 .game-container {
-    background-image: url(../images/rock_paper_scissors_lizard_spock.png);
+    background-image: url(../images/rock_paper_scissors_lizard_spock.webp);
     background-color: rgba(255, 255, 255, 0.2);
     background-repeat: no-repeat;
     background-size: 368px;
