@@ -99,3 +99,37 @@ button {
 button:hover {
     background-image: linear-gradient(to top, #051937, #003e61, #006679, #008e78, #56b265);
 }
+
+/*Style information container and icon*/
+#information-container {
+    display: none;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.4);
+    border: 1px solid #051937;
+    padding: 10px;
+    bottom: 50px;
+    left: 50px;
+    width: 500px;
+    border-radius: 5px;
+    color: #051937;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+#icon {
+    font-size: 24px;
+    cursor: pointer;
+    color: #56B265;
+    margin: 20px;
+}
+
+#icon-container {
+    position: relative;
+    display: inline-block;
+}
+
+#icon:hover+#information-container,
+#information-container:hover {
+    display: inline-block;
+    /* Show information container when icon is hovered*/
+}
