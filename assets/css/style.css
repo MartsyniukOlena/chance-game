@@ -120,7 +120,7 @@ button:hover {
     font-size: 32px;
     cursor: pointer;
     color: #56B265;
-    margin: 20px;
+    margin-left: 5px;
 }
 
 #icon-container {
@@ -134,3 +134,36 @@ button:hover {
     /* Show information container when icon is hovered*/
 }
 
+/* media queries */
+
+@media (max-width: 414px) {
+    .game-container {
+        background-size: 80%;
+    }
+}
+
+@media (max-width: 320px) {
+    .game-container {
+        background-size: 95%;
+    }
+
+    .game-container p {
+        font-size: 1.2rem;
+        margin: 15px;
+    }
+
+    #computer-choice {
+        font-size: 0.8rem;
+        width: auto;
+    }
+
+    button {
+        font-size: 1.2rem;
+        padding: 8px 15px;
+        margin-top: 5px;
+    }
+
+        #information-container {
+            width: 220px;
+        }
+}
