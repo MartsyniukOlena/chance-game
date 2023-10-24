@@ -43,7 +43,7 @@ body {
 }
 
 #computer-choice {
-    color: #D9ECAD;
+    color: red;
     padding: 5px 10px;
     border: none;
     text-transform: uppercase;
@@ -98,6 +98,13 @@ button {
     font-weight: 700;
     font-size: 1.2rem;
     font-family: 'Cormorant Garamond', serif;
+    margin: 10px;
+}
+
+.play-again-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 button:hover {
@@ -144,6 +151,11 @@ button:hover {
     .game-container {
         background-size: 80%;
     }
+
+    button {
+        font-size: 1.2rem;
+        padding: 8px 15px;
+        }
 }
 
 @media (max-width: 320px) {
@@ -153,21 +165,19 @@ button:hover {
 
     .game-container p {
         font-size: 1.2rem;
-        margin: 15px;
+        margin: 5px;
     }
 
     #computer-choice {
-        font-size: 0.8rem;
         width: auto;
     }
 
     button {
         font-size: 1.2rem;
         padding: 8px 15px;
-        margin-top: 5px;
     }
 
-        #information-container {
-            width: 220px;
+    #information-container {
+        width: 220px;
         }
 }
