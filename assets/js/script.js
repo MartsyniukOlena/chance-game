@@ -91,3 +91,13 @@ for (let choice of choices) {
 }
 document.getElementById("play-again").style.display = "block";
 }
+
+// Event listeners for user's choice
+for (let choice of choices) {
+    document.getElementById(choice).addEventListener("click", function() {
+        userChoice = choice;
+        computerChoice = generateComputerChoice();
+        reflectChanges(userChoice, computerChoice);
+    })
+}
+
