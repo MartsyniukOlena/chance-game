@@ -25,7 +25,6 @@ let computerScore = 0;
 let tries = 5;
 
 // Function to generate computer's choice
-
 function generateComputerChoice() {
     let randomChoice = Math.floor(Math.random() * 5);
     return choices[randomChoice];
@@ -53,3 +52,24 @@ function winner(user, computer) {
     }
 }
 
+// Function to update the changes
+function reflectChanges(user, computer) {
+    let results = winner(user, computer);
+
+    document.getElementById("computer-choice").textContent = computer;
+    document.getElementById("result").textContent = result;
+
+    if (result === "You WIN!") {
+        userScore++;
+    } else if (result === "Sheldon Wins!") {
+        computerScore++;
+    }
+    document.getElementById("score").textContent = `You: ${userScore}   Sheldon: ${computerScore}`;
+
+    tries--;
+    document.getElementById("tries").textContent = tries;
+
+    if (tries === 0) {
+        endGame();
+    }
+}
