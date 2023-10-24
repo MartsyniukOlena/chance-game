@@ -31,3 +31,25 @@ function generateComputerChoice() {
     return choices[randomChoice];
     let computerChoice = document.getElementById("computer-choice");
 }
+
+// Function to determine the winner
+function winner(user, computer) {
+    let rules = {
+        rock: {beats: ["scissors", "lizard"], lossesTo: ["paper", "spock"]},
+        paper: { beats: ["rock", "spock"], lossesTo: ["lizard", "scissors"]},
+        scissors: { beats: ["paper", "lizard"], lossesTo: ["rock", "spock"]},
+        spock: { beats: ["scissors", "rock"], lossesTo: ["paper", "lizard"]},
+        lizard: { beats: ["paper", "spock"], lossesTo: ["scissors", "rock"]},
+    }
+
+    if (user === computer) {
+        return "It is a TIE!"
+    }
+
+    if (rules[user].beats.includes(computer)) {
+        return "You WIN!";
+    } else {
+        return "Sheldon Wins!";
+    }
+}
+
