@@ -54,7 +54,7 @@ function winner(user, computer) {
 
 // Function to update the changes
 function reflectChanges(user, computer) {
-    let results = winner(user, computer);
+    let result = winner(user, computer);
 
     document.getElementById("computer-choice").textContent = computer;
     document.getElementById("result").textContent = result;
@@ -82,7 +82,7 @@ function endGame() {
     } else if (userScore < computerScore) {
         alert("Sheldon won the game!:(");
     } else {
-        alert("It is a TIE!;D");
+        alert("It is a TIE!:D");
     }
 
 // Disable buttons
@@ -101,3 +101,21 @@ for (let choice of choices) {
     })
 }
 
+// Event listener for "Play Again" button
+document.getElementById("play-again").addEventListener("click", function() {
+    userChoice = "";
+    computerChoice = "";
+    userScore = 0;
+    computerScore = 0;
+    tries = 5;
+    document.getElementById("computer-choice").textContent = "";
+    document.getElementById("result").textContent = "";
+    document.getElementById("score").textContent = "You:  0   Sheldon:  0";
+    document.getElementById("tries").textContent = tries;
+
+    // Enable buttons
+    for (let choice of choices) {
+        document.getElementById("choice").disabled = false;
+    }
+    this.style.display = "none";
+})
