@@ -115,7 +115,7 @@ document.getElementById("play-again").addEventListener("click", function() {
 
     // Enable buttons
     for (let choice of choices) {
-        document.getElementById("choice").disabled = false;
+        document.getElementById(choice).disabled = false;
     }
     this.style.display = "none";
 })
