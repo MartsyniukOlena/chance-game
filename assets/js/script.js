@@ -73,3 +73,21 @@ function reflectChanges(user, computer) {
         endGame();
     }
 }
+
+// Function to end the game
+
+function endGame() {
+    if (userScore > computerScore) {
+        alert("You won the game!:)");
+    } else if (userScore < computerScore) {
+        alert("Sheldon won the game!:(");
+    } else {
+        alert("It is a TIE!;D");
+    }
+
+// Disable buttons
+for (let choice of choices) {
+    document.getElementById(choice).disabled = true;
+}
+document.getElementById("play-again").style.display = "block";
+}
