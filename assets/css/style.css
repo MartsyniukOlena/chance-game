@@ -10,11 +10,20 @@
 
 /*Style game area*/
 body {
+    
+    font-family: 'Cormorant Garamond', serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
     background-image: linear-gradient(to right top, #051937, #003e61, #006679, #008e78, #56b265);
     background-repeat: no-repeat;
-    font-family: 'Cormorant Garamond', serif;
 }
 
+main {
+    flex: 1 0 auto;
+        display: flex;
+        flex-direction: column;
+}
 .game-container {
     background-image: url(../images/rock_paper_scissors_lizard_spock.webp);
     background-color: rgba(255, 255, 255, 0.2);
