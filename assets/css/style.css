@@ -21,8 +21,8 @@ body {
 
 main {
     flex: 1 0 auto;
-        display: flex;
-        flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 .game-container {
     background-image: url(../images/rock_paper_scissors_lizard_spock.webp);
@@ -64,14 +64,19 @@ header {
     font-family: 'Cormorant Garamond', serif;
 }
 
-#result,
+#result {
+    font-size: 24px;
+    margin: 20px 0;
+}
+
 #tries {
-    color: red;
-    font-size: 1.2rem;
+    font-size: 18px;
+    margin: 10px 0;
 }
 
 #score {
-    font-size: 1.2rem;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 /*Style message area*/
