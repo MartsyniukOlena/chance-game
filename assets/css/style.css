@@ -38,6 +38,7 @@ main {
     margin-right: auto;
     text-align: center;
     margin-top: 10px;
+    box-shadow: 3px 3px 8px 10px #008e78;
 }
 
 header {
@@ -123,6 +124,7 @@ button {
     font-size: 1.2rem;
     font-family: 'Cormorant Garamond', serif;
     margin: 10px;
+    cursor: pointer;
 }
 
 .play-again-container {
