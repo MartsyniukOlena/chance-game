@@ -148,7 +148,7 @@ button:hover {
     font-size: 28px;
     cursor: pointer;
     color: #56B265;
-    margin-left: 5px;
+    margin: 10px;
 }
 
 #icon-container {
