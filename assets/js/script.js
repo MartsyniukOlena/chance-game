@@ -28,7 +28,6 @@ let tries = 5;
 function generateComputerChoice() {
     let randomChoice = Math.floor(Math.random() * 5);
     return choices[randomChoice];
-    let computerChoice = document.getElementById("computer-choice");
 }
 
 // Function to determine the winner
@@ -96,6 +95,7 @@ document.getElementById("play-again").style.display = "block";
 for (let choice of choices) {
     document.getElementById(choice).addEventListener("click", function() {
         userChoice = choice;
+        document.getElementById("user-choice").textContent = userChoice; // Update the user's choice
         computerChoice = generateComputerChoice();
         reflectChanges(userChoice, computerChoice);
     })
@@ -109,6 +109,7 @@ document.getElementById("play-again").addEventListener("click", function() {
     computerScore = 0;
     tries = 5;
     document.getElementById("computer-choice").textContent = "";
+    document.getElementById("user-choice").textContent = "";
     document.getElementById("result").textContent = "";
     document.getElementById("score").textContent = "You:  0   Sheldon:  0";
     document.getElementById("tries").textContent = tries;

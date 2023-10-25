@@ -59,7 +59,8 @@ header {
     font-weight: 700;
 }
 
-#computer-choice {
+#computer-choice,
+#user-choice {
     color: red;
     padding: 5px 10px;
     border: none;
@@ -67,6 +68,10 @@ header {
     font-weight: 700;
     font-size: 1.2rem;
     font-family: 'Cormorant Garamond', serif;
+}
+
+.in-one-line {
+display: inline;
 }
 
 #result {
