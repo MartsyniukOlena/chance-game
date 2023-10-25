@@ -45,6 +45,11 @@ header {
     margin-top: 5px;
 }
 
+.logo {
+    width: 50px;
+    vertical-align: middle;
+}
+
 .game-container p {
     color: black;
     text-align: center;
