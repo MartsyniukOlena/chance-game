@@ -16,25 +16,25 @@
 <body>
     <!-- Header -->
     <header>
-        <h1 class="heading"> Rock-Paper-Scissors-Lizard-Spock Game <img src="assets/images/icon-choice.webp" alt="logo"
+        <h1 class="heading"> Rock-Paper-Scissors-Lizard-Spock Game <img src="assets/images/icon-choice.webp" alt="Illustration of a hand choosing and ticking a correct option"
                 class="logo" /></h1>
     </header>
 
     <!--Main game area-->
     <main>
     <div class="game-container">
-        <button id="rock">Rock<i class="fa-solid fa-hand-back-fist"></i></button>
-        <button id="paper">Paper<i class="fa-solid fa-hand"></i></button>
-        <button id="scissors">Scissors<i class="fa-solid fa-hand-scissors"></i></button>
-        <button id="lizard">Lizard<i class="fa-solid fa-hand-lizard"></i></button>
-        <button id="spock">Spock<i class="fa-solid fa-hand-spock"></i></button>
+        <button id="rock" aria-label="rock">Rock<i class="fa-solid fa-hand-back-fist"></i></button>
+        <button id="paper" aria-label="paper">Paper<i class="fa-solid fa-hand"></i></button>
+        <button id="scissors" aria-label="paper">Scissors<i class="fa-solid fa-hand-scissors"></i></button>
+        <button id="lizard" aria-label="lizard">Lizard<i class="fa-solid fa-hand-lizard"></i></button>
+        <button id="spock" aria-label="spock">Spock<i class="fa-solid fa-hand-spock"></i></button>
         <p>Your Choice <span id="user-choice"></span></p>
         <p>Sheldon's Choice<span id="computer-choice"></span></p>
         <p id="result"></p>
         <p>Tries left <span id="tries"></span></p>
         <p><span id="score"></span></p>
         <div class="play-again-container">
-        <button id="play-again">Play Again</button>
+        <button id="play-again" aria-label="play again">Play Again</button>
         </div>
     </div>
 
@@ -42,7 +42,7 @@
     <div id="message-container">
         <div id="welcome-message">
            <p>Welcome to the Rock-Paper-Scissors-Lizard-Spock Game!</p>
-            <button id="start-button">Start Game</button>
+            <button id="start-button" aria-label="start game">Start Game</button>
         </div>
     </div>
 </main>
