@@ -77,11 +77,11 @@ function reflectChanges(user, computer) {
 
 function endGame() {
     if (userScore > computerScore) {
-        alert("You won the game!:)");
+        alert("You won the game! :)");
     } else if (userScore < computerScore) {
-        alert("Sheldon won the game!:(");
+        alert("Sheldon won the game!");
     } else {
-        alert("It is a TIE!:D");
+        alert("It is a TIE! :D");
     }
 
 // Disable buttons

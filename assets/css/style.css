@@ -54,7 +54,7 @@ header {
     color: black;
     text-align: center;
     font-size: 1.2rem;
-    margin: 30px;
+    margin: 10px;
     text-transform: uppercase;
     font-weight: 700;
 }
@@ -68,10 +68,6 @@ header {
     font-weight: 700;
     font-size: 1.2rem;
     font-family: 'Cormorant Garamond', serif;
-}
-
-.in-one-line {
-display: inline;
 }
 
 #result {
