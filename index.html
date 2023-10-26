@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="a Rock, Paper, Scissors, Lizard, Spock Game. A game of chance">
+    <meta name="description" content="a Rock, Paper, Scissors, Lizard, Spock Game. A game of chance">
     <meta name="keywords" content="rock, paper, scissors, lizard, spock, game, chance">
     <link rel="stylesheet" href="assets/css/style.css">
     <!--Favicon-->
@@ -13,65 +13,74 @@
     <link type="image/png" sizes="96x96" rel="icon" href="assets/favicon/icons8-choice-coco-line-96.png">
     <title>Rock-Paper-Scissors-Lizard-Spock Game</title>
 </head>
+
 <body>
     <!-- Header -->
     <header>
-        <h1 class="heading">Rock-Paper-Scissors<br>Lizard-Spock Game <img src="assets/images/icon-choice.webp" alt="Illustration of a hand choosing and ticking a correct option" class="logo"></h1>
+        <h1 class="heading">Rock-Paper-Scissors<br>Lizard-Spock Game <img src="assets/images/icon-choice.webp"
+                alt="Illustration of a hand choosing and ticking a correct option" class="logo"></h1>
     </header>
 
     <!--Main game area-->
     <main>
-    <div class="game-container">
-        <div class="top-right">
-            <p>Tries left <span id="tries"></span></p>
-            <p><span id="score"></span></p>
+        <div class="game-container">
+            <div class="top-right">
+                <p>Tries left <span id="tries"></span></p>
+                <p><span id="score"></span></p>
+            </div>
+            <button id="rock" aria-label="Press the button that displays the Rock">Rock<i
+                    class="fa-solid fa-hand-back-fist"></i></button>
+            <button id="paper" aria-label="Press the button that displays the Paper">Paper<i
+                    class="fa-solid fa-hand"></i></button>
+            <button id="scissors" aria-label="Press the button that displays the Scissors">Scissors<i
+                    class="fa-solid fa-hand-scissors"></i></button>
+            <button id="lizard" aria-label="Press the button that displays the Lizard">Lizard<i
+                    class="fa-solid fa-hand-lizard"></i></button>
+            <button id="spock" aria-label="Press the button that displays the Spock">Spock<i
+                    class="fa-solid fa-hand-spock"></i></button>
+            <p>Your Choice <span id="user-choice"></span></p>
+            <p>Sheldon's Choice<span id="computer-choice"></span></p>
+            <p id="result"></p>
+            <div class="play-again-container">
+                <button id="play-again" aria-label="Press the button to play the game again">Play Again</button>
+            </div>
         </div>
-        <button id="rock" aria-label="rock">Rock<i class="fa-solid fa-hand-back-fist"></i></button>
-        <button id="paper" aria-label="paper">Paper<i class="fa-solid fa-hand"></i></button>
-        <button id="scissors" aria-label="paper">Scissors<i class="fa-solid fa-hand-scissors"></i></button>
-        <button id="lizard" aria-label="lizard">Lizard<i class="fa-solid fa-hand-lizard"></i></button>
-        <button id="spock" aria-label="spock">Spock<i class="fa-solid fa-hand-spock"></i></button>
-        <p>Your Choice <span id="user-choice"></span></p>
-        <p>Sheldon's Choice<span id="computer-choice"></span></p>
-        <p id="result"></p>
-        <div class="play-again-container">
-        <button id="play-again" aria-label="play again">Play Again</button>
-        </div>
-    </div>
 
-    <!--Message Container-->
-    <div id="message-container">
-        <div id="welcome-message">
-           <p>Welcome to the Rock-Paper-Scissors-Lizard-Spock Game!</p>
-            <button id="start-button" aria-label="start game">Start Game</button>
+        <!--Message Container-->
+        <div id="message-container">
+            <div id="welcome-message">
+                <p>Welcome to the Rock-Paper-Scissors-Lizard-Spock Game!</p>
+                <button id="start-button" aria-label="Press the button to start the game">Start Game</button>
+            </div>
         </div>
-    </div>
-</main>
-<footer>
-    <!--Information section-->
-    <div id="icon-container">
-    <div id="icon"><i class="fa-solid fa-circle-info"></i></div>
-    <div id="information-container">
-        <div id="information">
-            <p>Do you want to play a Rock-Paper-Scissors-Lizard-Spock Game? Click the button on the main screen
-                and play against Sheldon. You have 5 tries in one round to win the game. 
-                Rules:<br> 
-                <i class="fa-solid fa-circle-check"></i>Scissors cuts Paper<br>
-                <i class="fa-solid fa-circle-check"></i>Paper covers rock<br>
-                <i class="fa-solid fa-circle-check"></i>Rock crushes Lizard<br>
-                <i class="fa-solid fa-circle-check"></i>Lizard poisons spock<br>
-                <i class="fa-solid fa-circle-check"></i>Spock smashes scissors<br>
-                <i class="fa-solid fa-circle-check"></i>Scissors decapitates Lizard<br>
-                <i class="fa-solid fa-circle-check"></i>Lizard eats paper<br>
-                <i class="fa-solid fa-circle-check"></i>Paper disproves spock<br>
-                <i class="fa-solid fa-circle-check"></i>Spock vaporizes Rock<br>
-                <i class="fa-solid fa-circle-check"></i>Rock crushes Scissors</p>
+    </main>
+    <footer>
+        <!--Information section-->
+        <div id="icon-container">
+            <div id="icon"><i class="fa-solid fa-circle-info"></i></div>
+            <div id="information-container">
+                <div id="information">
+                    <p>Do you want to play a Rock-Paper-Scissors-Lizard-Spock Game? Click the button on the main screen
+                        and play against Sheldon. You have 5 tries in one round to win the game.
+                        Rules:<br>
+                        <i class="fa-solid fa-circle-check"></i>Scissors cuts Paper<br>
+                        <i class="fa-solid fa-circle-check"></i>Paper covers rock<br>
+                        <i class="fa-solid fa-circle-check"></i>Rock crushes Lizard<br>
+                        <i class="fa-solid fa-circle-check"></i>Lizard poisons spock<br>
+                        <i class="fa-solid fa-circle-check"></i>Spock smashes scissors<br>
+                        <i class="fa-solid fa-circle-check"></i>Scissors decapitates Lizard<br>
+                        <i class="fa-solid fa-circle-check"></i>Lizard eats paper<br>
+                        <i class="fa-solid fa-circle-check"></i>Paper disproves spock<br>
+                        <i class="fa-solid fa-circle-check"></i>Spock vaporizes Rock<br>
+                        <i class="fa-solid fa-circle-check"></i>Rock crushes Scissors
+                    </p>
+                </div>
+            </div>
         </div>
-    </div>
-    </div>
-</footer>
+    </footer>
     <script src="assets/js/script.js"></script>
 
     <script src="https://kit.fontawesome.com/2608d92977.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
