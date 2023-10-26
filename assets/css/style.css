@@ -10,13 +10,10 @@
 
 /*Style game area*/
 body {
-    
     font-family: 'Cormorant Garamond', serif;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    background-image: linear-gradient(to right top, #051937, #003e61, #006679, #008e78, #56b265);
-    background-repeat: no-repeat;
 }
 
 main {
@@ -25,20 +22,26 @@ main {
     flex-direction: column;
 }
 .game-container {
-    background-color: rgb(255, 255, 255);
-    width: 55%;
-    height: 80%;
+    background-color: #9BAEBC;
+    box-sizing: border-box;
+    width: 85%;
+    height: 65vh;
+    max-height: 450px;
+    max-width: 830px;
     margin-left: auto;
     margin-right: auto;
-    text-align: center;
+    padding: 1%;
     margin-top: 10px;
     border-radius: 5px;
+    text-align: center; 
 }
+
 
 
 header {
     margin-left: 15px;
     margin-top: 15px;
+    color:#051937;
 }
 
 .logo {
@@ -104,7 +107,7 @@ header {
 }
 
 #welcome-message {
-    background: #ffffff;
+    background: #9BAEBC;
     padding: 20px;
     border-radius: 5px;
     color: #051937;
@@ -135,25 +138,33 @@ button {
     align-items: center;
 }
 
-button:hover {
-    background-color: #007BA7;
+#paper,
+#lizard {
+    background-color: #9C5E88;
 }
 
-.image-container img {
-    max-width: 250px;
-    max-height: 250px;
-    align-self: center;
+#rock,
+#spock {
+    background-color: #00C6BF;
+}
+
+#scissors {
+background-color: #005D82;
+}
+
+button:hover {
+    background-color: #007BA7 !important;
 }
 
 /*Style information container and icon*/
 #information-container {
     display: none;
     position: absolute;
-    background: rgb(255, 255, 255);
+    border: 2px solid #051937;
     padding: 5px;
     bottom: 50px;
     left: 50px;
-    width: 290px;
+    width: 300px;
     border-radius: 5px;
     color: black;
     font-size: 1.1rem;
@@ -164,7 +175,7 @@ button:hover {
 #icon {
     font-size: 28px;
     cursor: pointer;
-    color: #56B265;
+    color: #051937;
     margin: 10px;
 }
 
@@ -194,8 +205,11 @@ button:hover {
     
         .game-container {
             width: 95%;
-            height: 70%;
         }
+
+    #information-container {
+          width: 220px;
+     }
 }
 
 @media (max-width: 320px) {
@@ -214,12 +228,8 @@ button:hover {
         padding: 8px 15px;
     }
 
-    #information-container {
-        width: 250px;
-        }
 
      .game-container {
      width: 95%;
-     height: 70%;
                  }                 
 }
