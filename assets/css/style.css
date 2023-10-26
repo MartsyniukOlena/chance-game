@@ -25,14 +25,14 @@ main {
     flex-direction: column;
 }
 .game-container {
-
     background-color: rgb(255, 255, 255);
-    max-height: 750px;
-    max-width: 850px;
+    width: 55%;
+    height: 80%;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     margin-top: 10px;
+    border-radius: 5px;
 }
 
 
@@ -51,7 +51,7 @@ header {
     color: black;
     text-align: center;
     font-size: 1.2rem;
-    margin: 10px;
+    margin: 20px;
     text-transform: uppercase;
     font-weight: 700;
 }
@@ -116,8 +116,8 @@ header {
 
 /*Style buttons*/
 button {
-    background-color: #003e61;
-    color: #D9ECAD;
+    background-color: #051937;
+    color: #FFFFFF;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
@@ -136,7 +136,7 @@ button {
 }
 
 button:hover {
-    background-image: linear-gradient(to top, #051937, #003e61, #006679, #008e78, #56b265);
+    background-color: #007BA7;
 }
 
 .image-container img {
@@ -153,7 +153,7 @@ button:hover {
     padding: 5px;
     bottom: 50px;
     left: 50px;
-    width: 260px;
+    width: 290px;
     border-radius: 5px;
     color: black;
     font-size: 1.1rem;
@@ -192,6 +192,10 @@ button:hover {
          flex-direction: column;
     }
     
+        .game-container {
+            width: 95%;
+            height: 70%;
+        }
 }
 
 @media (max-width: 320px) {
@@ -211,6 +215,11 @@ button:hover {
     }
 
     #information-container {
-        width: 220px;
+        width: 250px;
         }
+
+     .game-container {
+     width: 95%;
+     height: 70%;
+                 }                 
 }
