@@ -38,16 +38,16 @@ function winner(user, computer) {
         scissors: { beats: ["paper", "lizard"], lossesTo: ["rock", "spock"]},
         spock: { beats: ["scissors", "rock"], lossesTo: ["paper", "lizard"]},
         lizard: { beats: ["paper", "spock"], lossesTo: ["scissors", "rock"]},
-    }
+    };
 
     if (user === computer) {
-        return "It is a TIE!"
+        return "It is a tie!";
     }
 
     if (rules[user].beats.includes(computer)) {
-        return "You WIN!";
+        return "You win!";
     } else {
-        return "Sheldon Wins!";
+        return "Sheldon wins!";
     }
 }
 
@@ -58,9 +58,9 @@ function reflectChanges(user, computer) {
     document.getElementById("computer-choice").textContent = computer;
     document.getElementById("result").textContent = result;
 
-    if (result === "You WIN!") {
+    if (result === "You win!") {
         userScore++;
-    } else if (result === "Sheldon Wins!") {
+    } else if (result === "Sheldon wins!") {
         computerScore++;
     }
     document.getElementById("score").textContent = `You: ${userScore}   Sheldon: ${computerScore}`;
@@ -77,11 +77,11 @@ function reflectChanges(user, computer) {
 
 function endGame() {
     if (userScore > computerScore) {
-        alert("You won the game! :)");
+        alert("You won the game!");
     } else if (userScore < computerScore) {
         alert("Sheldon won the game!");
     } else {
-        alert("It is a TIE! :D");
+        alert("It is a tie!");
     }
 
 // Disable buttons
@@ -98,7 +98,7 @@ for (let choice of choices) {
         document.getElementById("user-choice").textContent = userChoice; // Update the user's choice
         computerChoice = generateComputerChoice();
         reflectChanges(userChoice, computerChoice);
-    })
+    });
 }
 
 // Event listener for "Play Again" button
@@ -111,7 +111,7 @@ document.getElementById("play-again").addEventListener("click", function() {
     document.getElementById("computer-choice").textContent = "";
     document.getElementById("user-choice").textContent = "";
     document.getElementById("result").textContent = "";
-    document.getElementById("score").textContent = "You:  0   Sheldon:  0";
+    document.getElementById("score").textContent = "You:  0  Sheldon:  0";
     document.getElementById("tries").textContent = tries;
 
     // Enable buttons
@@ -119,4 +119,4 @@ document.getElementById("play-again").addEventListener("click", function() {
         document.getElementById(choice).disabled = false;
     }
     this.style.display = "none";
-})
+});
