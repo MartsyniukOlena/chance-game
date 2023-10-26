@@ -27,7 +27,7 @@ main {
     background-color: #9BAEBC;
     box-sizing: border-box;
     width: 85%;
-    height: 70vh;
+    height: 80vh;
     max-height: 550px;
     max-width: 830px;
     margin-left: auto;
@@ -191,7 +191,7 @@ button:hover {
     display: none;
     position: absolute;
     bottom: 50px;
-    left: 50px;
+    left: 10px;
     border-radius: 5px;
     color: black;
     font-size: 1.1rem;
