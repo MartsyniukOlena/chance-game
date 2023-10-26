@@ -36,8 +36,6 @@ main {
     text-align: center; 
 }
 
-
-
 header {
     margin-left: 15px;
     margin-top: 15px;
@@ -139,17 +137,19 @@ button {
 }
 
 #paper,
-#lizard {
+#spock
+ {
     background-color: #9C5E88;
 }
 
 #rock,
-#spock {
-    background-color: #00C6BF;
+#scissors {
+    background-color: #188580;
 }
 
-#scissors {
-background-color: #005D82;
+#lizard
+ {
+background-color: #5F6A90;
 }
 
 button:hover {
@@ -160,16 +160,16 @@ button:hover {
 #information-container {
     display: none;
     position: absolute;
-    border: 2px solid #051937;
-    padding: 5px;
     bottom: 50px;
     left: 50px;
-    width: 300px;
     border-radius: 5px;
     color: black;
     font-size: 1.1rem;
-    font-weight: 900;
-    letter-spacing: 0.5px;
+    font-weight: 700;
+    width: 500px;
+    padding: 1%;
+    background-color: #FFFFFF;
+
 }
 
 #icon {
@@ -207,9 +207,9 @@ button:hover {
             width: 95%;
         }
 
-    #information-container {
-          width: 220px;
-     }
+                #information-container {
+                    width: 250px;
+                }
 }
 
 @media (max-width: 320px) {
@@ -231,5 +231,8 @@ button:hover {
 
      .game-container {
      width: 95%;
-                 }                 
+                 }       
+        #information-container {
+            width: 250px;
+        }
 }
