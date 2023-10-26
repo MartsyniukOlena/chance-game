@@ -87,6 +87,12 @@ header {
     font-weight: 900;
 }
 
+.top-right {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
 /*Style message area*/
 #message-container {
     position: absolute;
