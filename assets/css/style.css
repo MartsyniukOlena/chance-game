@@ -136,13 +136,18 @@ button {
     align-items: center;
 }
 
-#paper,
-#spock
- {
+#paper {
     background-color: #9C5E88;
 }
 
-#rock,
+#spock {
+background-color: #66373D;
+}
+
+#rock {
+    background-color: #62507D;
+}
+
 #scissors {
     background-color: #188580;
 }
