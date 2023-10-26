@@ -188,7 +188,11 @@ button:hover {
     button {
         font-size: 1.2rem;
         padding: 8px 15px;
-        }
+    }
+
+    .top-right {
+         flex-direction: column;
+    }
     
 }
 
