@@ -35,6 +35,7 @@ main {
     margin-top: 20px;
     border-radius: 5px;
     text-align: center; 
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
 }
 
 header {
@@ -126,6 +127,7 @@ button {
     font-family: 'Cormorant Garamond', serif;
     margin: 3px;
     cursor: pointer;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
 }
 
 .play-again-container {
@@ -167,7 +169,7 @@ button:hover {
     width: 350px;
     padding: 1%;
     background-color: #FFFFFF;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
 
 }
 
