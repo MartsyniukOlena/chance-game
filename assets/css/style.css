@@ -35,21 +35,21 @@ main {
     padding: 1%;
     margin-top: 20px;
     border-radius: 5px;
-    text-align: center; 
+    text-align: center;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
 }
 
 header {
-    color:#051937;
+    color: #051937;
 }
 
 h1 {
-margin-left: 15px;
-margin-top: 15px;
+    margin-left: 15px;
+    margin-top: 15px;
 }
 
 .fa-solid {
-margin: 5px;
+    margin: 5px;
 }
 
 .game-container p {
@@ -145,13 +145,13 @@ button {
     background-color: #9C5E88;
 }
 
-.fa-hand-back-fist
-{
-    color: #9C5E88;;
+.fa-hand-back-fist {
+    color: #9C5E88;
+    ;
 }
 
 #spock {
-background-color: #66373D;
+    background-color: #66373D;
 }
 
 .fa-hand {
@@ -174,14 +174,14 @@ background-color: #66373D;
     color: #188580;
 }
 
-#lizard
- {
-background-color: #5F6A90;
+#lizard {
+    background-color: #5F6A90;
 }
 
 .fa-hand-spock {
     color: #5F6A90;
 }
+
 button:hover {
     background-color: #007BA7 !important;
 }
@@ -231,20 +231,22 @@ button:hover {
     }
 
     .top-right {
-         flex-direction: column;
+        flex-direction: column;
     }
-    
-        .game-container {
-            width: 95%;
-        }
 
-                #information-container {
-                    width: 220px;
-                }
+    .game-container {
+        width: 95%;
+        height: fit-content;
+    }
 
-                header {
-                    font-size: small;
-                }
+    #information-container {
+        width: 220px;
+    }
+
+    header {
+        font-size: small;
+    }
+
 }
 
 @media (max-width: 320px) {
@@ -264,11 +266,12 @@ button:hover {
     }
 
 
-     .game-container {
-     width: 95%;
-                 }   
-    
-        #information-container {
-            width: 220px;
-        }
+    .game-container {
+        width: 95%;
+        height: fit-content;
+    }
+
+    #information-container {
+        width: 220px;
+    }
 }
