@@ -14,6 +14,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    background-color: lightgray;
 }
 
 main {
@@ -45,6 +46,10 @@ header {
 h1 {
 margin-left: 15px;
 margin-top: 15px;
+}
+
+.fa-solid {
+margin: 5px;
 }
 
 .game-container p {
@@ -140,16 +145,33 @@ button {
     background-color: #9C5E88;
 }
 
+.fa-hand-back-fist
+{
+    color: #9C5E88;;
+}
+
 #spock {
 background-color: #66373D;
+}
+
+.fa-hand {
+    color: #66373D;
 }
 
 #rock {
     background-color: #62507D;
 }
 
+.fa-hand-scissors {
+    color: #62507D;
+}
+
 #scissors {
     background-color: #188580;
+}
+
+.fa-hand-lizard {
+    color: #188580;
 }
 
 #lizard
@@ -157,6 +179,9 @@ background-color: #66373D;
 background-color: #5F6A90;
 }
 
+.fa-hand-spock {
+    color: #5F6A90;
+}
 button:hover {
     background-color: #007BA7 !important;
 }
