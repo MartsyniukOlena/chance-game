@@ -21,12 +21,13 @@ main {
     display: flex;
     flex-direction: column;
 }
+
 .game-container {
     background-color: #9BAEBC;
     box-sizing: border-box;
     width: 85%;
-    height: 65vh;
-    max-height: 450px;
+    height: 70vh;
+    max-height: 550px;
     max-width: 830px;
     margin-left: auto;
     margin-right: auto;
@@ -37,9 +38,12 @@ main {
 }
 
 header {
-    margin-left: 15px;
-    margin-top: 15px;
     color:#051937;
+}
+
+h1 {
+margin-left: 15px;
+margin-top: 15px;
 }
 
 .logo {
@@ -52,7 +56,7 @@ header {
     color: black;
     text-align: center;
     font-size: 1.2rem;
-    margin: 20px;
+    margin: 7px;
     text-transform: uppercase;
     font-weight: 700;
 }
@@ -86,7 +90,7 @@ header {
 .top-right {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 /*Style message area*/
@@ -177,7 +181,7 @@ button:hover {
     font-size: 28px;
     cursor: pointer;
     color: #051937;
-    margin: 10px;
+    margin: 0 0 20px 15px;
 }
 
 #icon-container {
