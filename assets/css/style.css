@@ -25,13 +25,8 @@ main {
     flex-direction: column;
 }
 .game-container {
-    background-image: url(../images/rock_paper_scissors_lizard_spock.webp);
-    background-color: rgba(255, 255, 255, 0.1);
-    background-repeat: no-repeat;
-    background-size: 368px;
-    background-position: center bottom;
-    padding: 15px;
-    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.9);
+    height: 40vh;
     max-height: 750px;
     max-width: 850px;
     margin-left: auto;
