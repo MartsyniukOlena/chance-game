@@ -25,3 +25,16 @@ The game fosters strategic thinking, decision-making, and quick reflexes, making
 3. To improve skills and strategies with the help of a game.
 
 ___
+
+## Features
+
+The Rock-Paper-Scissors-Lizard-Spock Game offers several key features for its users.
+
+__Existing Features__
+___
+
+__Welcome Message:__
+
+When a user starts a game, the first they see is a welcome message and a start button. This area serves as an entry point, welcoming users to the game and offering them a clear starting point, enhancing user experience. The user can start a game after pressing the start button.
+
+![welcome-message](readme-media/welcome-message.png)
