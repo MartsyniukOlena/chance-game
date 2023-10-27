@@ -38,3 +38,10 @@ __Welcome Message:__
 When a user starts a game, the first they see is a welcome message and a start button. This area serves as an entry point, welcoming users to the game and offering them a clear starting point, enhancing user experience. The user can start a game after pressing the start button.
 
 ![welcome-message](readme-media/welcome-message.png)
+
+__Header:__
+
+The header  displays the games's title, "Rock-Paper-Scissors-Lizard-Spock Game," along with an illustrative icons to create an engaging introduction. The value here lies in capturing the user's attention and conveying the essence of the game.
+
+![header](readme-media/header.png)
+
