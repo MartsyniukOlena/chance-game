@@ -47,6 +47,44 @@ The header  displays the games's title, "Rock-Paper-Scissors-Lizard-Spock Game,"
 
 __Main Game Area:__
 
-This section is the heart of the project, featuring buttons for the five-game choices (Rock, Paper, Scissors, Lizard, and Spock), allowing the user to choose. It also displays the remaining tries and the score at the top and the user's and computer's choices, the game result below. The value of this area is to offer an interactive gaming experience where users can play, enjoy the game's dynamics, and track their progress.
+This section is the heart of the project. The value of this area is to offer an interactive gaming experience where users can play, enjoy the game's dynamics, and track their progress.
 
 ![main-area](readme-media/main-area.png)
+
+Buttons (Rock, Paper, Scissors, Lizard, Spock):
+
+- Buttons represent the player's choices in a RPSLS game. They allow the user to select their move to play against the computer.
+- These buttons make the game interactive and engaging for the user, as they are the core elements for playing and provide the means for active participation.
+
+![buttons](readme-media/buttons.png)
+
+Tries and Score:
+
+- "Tries left" and "Score" are textual elements that display information related to the game's progress. They are placed at the top of the game container.
+- "Tries left" shows how many attempts the user has remaining. The maximum amount of tries is five. After each selection, tries are subtracted.
+- "Score" keeps track of the user's and computer's points.
+- These elements help to keep track of performance and encourage to play multiple rounds.
+
+![tries-and-score](readme-media/tries-and-score.png)
+
+User's and Computer's Choice:
+
+- "Your Choice" and "Computer's Choice" are text elements that display the choices made by the user and the computer.
+- "Computer's Choice" is replaced by "Sheldon Choice". It is a thematic choice. Sheldon is a fan of Rock-Paper-Scissors-Lizard-Spock Game, whose idia was to add two more elements (Spock and Lizard) to the classical game.
+ The purpose is to add an entertaining touch to the game to make the game more engaging.
+- These elements provide transparency by showing what moves the user and the computer have selected for a particular round, enhancing the user's understanding of the game's outcome.
+  
+Results:
+
+- The "result" element is where the game's outcome is displayed (You win!, Sheldon wins!, or It is a tie!).
+- This feature provides instant feedback to the user about the result of the current game round, contributing to their engagement and understanding of the game's progress.
+
+![results](readme-media/results.png)
+
+Play-Again Button:
+
+- The "Play Again" button allows you to start a new game round after the current round has concluded. Other butons to chooce the option are disabled.
+- This feature offers convenience and encourages you to continue playing, ensuring an enjoyable gaming experience.
+- The "Play-Again" button ensures a smooth and continuous gaming experience for the user.
+
+![play-again](readme-media/play-again.png)
