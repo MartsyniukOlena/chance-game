@@ -45,3 +45,8 @@ The header  displays the games's title, "Rock-Paper-Scissors-Lizard-Spock Game,"
 
 ![header](readme-media/header.png)
 
+__Main Game Area:__
+
+This section is the heart of the project, featuring buttons for the five-game choices (Rock, Paper, Scissors, Lizard, and Spock), allowing the user to choose. It also displays the remaining tries and the score at the top and the user's and computer's choices, the game result below. The value of this area is to offer an interactive gaming experience where users can play, enjoy the game's dynamics, and track their progress.
+
+![main-area](readme-media/main-area.png)
