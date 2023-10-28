@@ -134,7 +134,7 @@ An alert message appears after the user has made five selections, indicating the
 
 A "Play" button appears when the number of tries reaches zero, indicating that the game has ended. The user can click the "Play" button to start a new game with five fresh tries.
 
-An information box appears when the user hovers or clicks on an icon, providing details about the game rules and how to play.
+An information box appears when the user hovers or clicks (for mobile) on an icon, providing details about the game rules and how to play.
 ___
 __Compatibility Testing:__
 
@@ -165,10 +165,11 @@ ___
 
 __Solved Bugs:__
 
-- aria-label for scissors was corrected (as it was paper)
-- removed low resolution logo and added rock, paper, scissors, spock lizard icons
+- The aria label for scissors was corrected (it was paper)
+- removed low-resolution logo and added rock, paper, scissors, spock, lizard icons
 - changed colors for contrast on computer's and user's choices, buttons, icons
-- JSHint showed to remove missing semicolons
+- JSHint showed to add missing semicolons
+- Arrows were not displayed on the mobile version. They were replaced with hyphens and 'more than' signs
 
 __The bugs left to fix__
 
@@ -194,3 +195,13 @@ Refresh the page. The link will be at the top.
 
 The live link can be found here - <https://martsyniukolena.github.io/rock-paper-scissors-lizard-spock-game/>
 ___
+
+## Credits
+
+Colors were generated at [MyColor Space](https://mycolor.space/?hex=%2331809A&sub=1) and were chosen randomly.
+Favicon was downloaded at [Icons8](https://icons8.com/icons/set/choice)
+Icons were downloaded from [Fontawesome](https://fontawesome.com/search)
+To check grammar and edit text, I used [Grammarly](https://app.grammarly.com/)
+I referenced the Love Maths project as a guide and Ultimate Rock Paper Scissors.
+Game rules were copied from [The Big Bang Theory Wiki](https://bigbangtheory.fandom.com/wiki/Rock,_Paper,_Scissors,_Lizard,_Spock)
+The work I referenced for inspiration was from [CodePen]( https://codepen.io/763004/pen/pPGGyP)
