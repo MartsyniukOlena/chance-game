@@ -32,8 +32,6 @@ The Rock-Paper-Scissors-Lizard-Spock Game offers several key features for its us
 
 ### Existing Features
 
-___
-
 __Welcome Message:__
 
 When a user starts a game, the first they see is a welcome message and a start button. This area serves as an entry point, welcoming users to the game and offering them a clear starting point, enhancing user experience. The user can start a game after pressing the start button.
@@ -121,8 +119,6 @@ ___
 
 I conducted the following testing:
 
-___
-
 __Functionality Testing:__
 
 - Verified that all functionality works
@@ -140,10 +136,12 @@ __Compatibility Testing:__
 
 - I tested this game playing in different browsers - Chrome, Firefox, Edge
 - I tested this game playing on desktop and mobile, Windows and Android
+
 ___
 __Accessibility Testing:__
 
 - Ensured the buttons have aria-label
+
 ___
 __Performance Testing:__
 
@@ -175,6 +173,7 @@ __The bugs left to fix__
 
 No unfixed bugs.
 ___
+
 ## Validator Testing
 
 HTML: No errors were found when passing through the W3C validator.
@@ -186,6 +185,7 @@ CSS: No errors were found when passing through the Jigsaw validator.
 JSHint JavaScript Validator: No critical errors were found when passing through the JSHint.
 ![CSS Validator](readme-media/jshint.png)
 ___
+
 ## Deployment
 
 The site was deployed to GitHub pages.
@@ -199,9 +199,9 @@ ___
 ## Credits
 
 Colors were generated at [MyColor Space](https://mycolor.space/?hex=%2331809A&sub=1) and were chosen randomly.
-Favicon was downloaded at [Icons8](https://icons8.com/icons/set/choice)
-Icons were downloaded from [Fontawesome](https://fontawesome.com/search)
-To check grammar and edit text, I used [Grammarly](https://app.grammarly.com/)
+Favicon was downloaded at [Icons8](https://icons8.com/icons/set/choice).
+Icons were downloaded from [Fontawesome](https://fontawesome.com/search).
+To check grammar and edit text, I used [Grammarly](https://app.grammarly.com/).
 I referenced the Love Maths project as a guide and Ultimate Rock Paper Scissors.
-Game rules were copied from [The Big Bang Theory Wiki](https://bigbangtheory.fandom.com/wiki/Rock,_Paper,_Scissors,_Lizard,_Spock)
-The work I referenced for inspiration was from [CodePen]( https://codepen.io/763004/pen/pPGGyP)
+Game rules were copied from [The Big Bang Theory Wiki](https://bigbangtheory.fandom.com/wiki/Rock,_Paper,_Scissors,_Lizard,_Spock).
+The work I referenced for inspiration was from [CodePen]( https://codepen.io/763004/pen/pPGGyP).
