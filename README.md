@@ -116,3 +116,23 @@ ___
 - navigate through the game with a keyboard.
 
 ___
+
+## Testing
+
+I conducted the following testing:
+
+__Functionality Testing:__
+
+- Verified that all functionality works
+- Tested the buttons and if the information displays as expected
+
+Buttons allow the user to make a selection. The user's choice and the computer's choice are displayed on the screen after each selection correctly. The overal result of each selection is correctly displayed. The number of tries subtract after each selection. The score increases and decreases based on it is a win or lose. If it's a tie, the score remains unchanged. The computer's choice is generated randomly.
+
+An alert message appears after the user has made five selections, indicating the final result of the game. The notification declares whether the user or the computer has won based on the overall score and if the result is a tie.
+
+A "Play" button appears when the number of tries reaches zero, indicating that the game has ended. The user can click the "Play" button to start a new game with five fresh tries.
+
+An information box appears when the user hovers or clicks on an icon, providing details about the game rules and how to play.
+
+
+
