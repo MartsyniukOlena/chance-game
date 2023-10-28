@@ -51,14 +51,14 @@ This section is the heart of the project. The value of this area is to offer an 
 
 ![main-area](readme-media/main-area.png)
 
-Buttons (Rock, Paper, Scissors, Lizard, Spock):
+__Buttons (Rock, Paper, Scissors, Lizard, Spock):__
 
 - Buttons represent the player's choices in a RPSLS game. They allow the user to select their move to play against the computer.
 - These buttons make the game interactive and engaging for the user, as they are the core elements for playing and provide the means for active participation.
 
-![buttons](readme-media/buttons.png)
+![buttons](readme-media/choice-buttons.png)
 
-Tries and Score:
+__Tries and Score:__
 
 - "Tries left" and "Score" are textual elements that display information related to the game's progress. They are placed at the top of the game container.
 - "Tries left" shows how many attempts the user has remaining. The maximum amount of tries is five. After each selection, tries are subtracted.
@@ -67,23 +67,32 @@ Tries and Score:
 
 ![tries-and-score](readme-media/tries-and-score.png)
 
-User's and Computer's Choice:
+__User's and Computer's Choice:__
 
 - "Your Choice" and "Computer's Choice" are text elements that display the choices made by the user and the computer.
 - "Computer's Choice" is replaced by "Sheldon Choice". It is a thematic choice. Sheldon is a fan of Rock-Paper-Scissors-Lizard-Spock Game, whose idia was to add two more elements (Spock and Lizard) to the classical game.
  The purpose is to add an entertaining touch to the game to make the game more engaging.
 - These elements provide transparency by showing what moves the user and the computer have selected for a particular round, enhancing the user's understanding of the game's outcome.
+
+![choices](readme-media/choices.png)
   
-Results:
+__Results:__
 
 - The "result" element is where the game's outcome is displayed (You win!, Sheldon wins!, or It is a tie!).
 - This feature provides instant feedback to the user about the result of the current game round, contributing to their engagement and understanding of the game's progress.
 
 ![results](readme-media/results.png)
 
-Play-Again Button:
+__Alert Notification:__
 
-- The "Play Again" button allows you to start a new game round after the current round has concluded. Other butons to chooce the option are disabled.
+- This function is used to determine the outcome of a game and then display a message to the user based on the result.
+- It compares the user's score and the computer's score to see who has won or if it's a tie. It is a crucial feature because it finalises the game round and informs the user of the final result.
+
+![alert](readme-media/alert.png)
+
+__Play-Again Button:__
+
+- The "Play Again" button allows you to start a new game round after the current round has concluded. Others are disabled.
 - This feature offers convenience and encourages you to continue playing, ensuring an enjoyable gaming experience.
 - The "Play-Again" button ensures a smooth and continuous gaming experience for the user.
 
