@@ -177,3 +177,11 @@ CSS: No errors were found when passing through the Jigsaw validator.
 JSHint JavaScript Validator: No critical errors were found when passing through the JSHint.
 ![CSS Validator](readme-media/jshint.png)
 
+## Deployment
+
+The site was deployed to GitHub pages.
+
+In the GitHub repository, go to Settings --> In the Code and automation section on the left side, Press Pages --> Under the Source, select 'Deploy from a branch' --> Under the Branch, select Main and press the Save button.
+Refresh the page. The link will be at the top.
+
+The live link can be found here - <https://martsyniukolena.github.io/rock-paper-scissors-lizard-spock-game/>
