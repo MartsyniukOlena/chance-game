@@ -153,37 +153,33 @@ button {
     align-items: center;
 }
 
-#paper {
-    background-color: #9C5E88;
-}
 
 .fa-hand-back-fist {
-    color: #9C5E88;
-    ;
-}
-
-#spock {
-    background-color: #66373D;
-}
-
-.fa-hand {
-    color: #66373D;
+    color: #2F4858;
 }
 
 #rock {
     background-color: #62507D;
 }
 
+.fa-hand {
+    color: #66373D;
+}
+
+#paper {
+    background-color: #9C5E88;
+}
+
 .fa-hand-scissors {
-    color: #62507D;
+    color: #007CA0;
 }
 
 #scissors {
-    background-color: #188580;
+    background-color: #006457;
 }
 
 .fa-hand-lizard {
-    color: #188580;
+    color: #00C9A6;
 }
 
 #lizard {
@@ -191,7 +187,11 @@ button {
 }
 
 .fa-hand-spock {
-    color: #5F6A90;
+    color: #005B55;
+}
+
+#spock {
+    background-color: #481C23;
 }
 
 button:hover {

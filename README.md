@@ -176,3 +176,4 @@ CSS: No errors were found when passing through the Jigsaw validator.
 
 JSHint JavaScript Validator: No critical errors were found when passing through the JSHint.
 ![CSS Validator](readme-media/jshint.png)
+
