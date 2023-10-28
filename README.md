@@ -153,3 +153,26 @@ Mobile
 Desktop
 ![Lighthouse report desktop](readme-media/lighthouse-report-desktop.png)
 
+## Bugs
+
+__Solved Bugs:__
+
+- aria-label for scissors was corrected (as it was paper)
+- removed low resolution logo and added rock, paper, scissors, spock lizard icons
+- changed colors for contrast on computer's and user's choices, buttons, icons
+- JSHint showed to remove missing semicolons
+
+__The bugs left to fix__
+
+No unfixed bugs.
+
+## Validator Testing
+
+HTML: No errors were found when passing through the W3C validator.
+![HTML Validator](readme-media/html-validator.png)
+
+CSS: No errors were found when passing through the Jigsaw validator.
+![CSS Validator](readme-media/css-validator.png)
+
+JSHint JavaScript Validator: No critical errors were found when passing through the JSHint.
+![CSS Validator](readme-media/jshint.png)
