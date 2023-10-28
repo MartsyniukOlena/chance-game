@@ -8,7 +8,6 @@
     box-sizing: border-box;
 }
 
-/*Style game area*/
 body {
     font-family: 'Cormorant Garamond', serif;
     min-height: 100vh;
@@ -17,6 +16,22 @@ body {
     background-color: lightgray;
 }
 
+/*Style header */
+header {
+    color: #051937;
+}
+
+h1 {
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.heading .fa-solid {
+    margin: 8px;
+}
+
+
+/*Style game area*/
 main {
     flex: 1 0 auto;
     display: flex;
@@ -37,31 +52,6 @@ main {
     border-radius: 5px;
     text-align: center;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
-}
-
-.images-container {
-    margin-top: 8px;
-    font-size: 1.3rem;
-    letter-spacing: 3px;
-}
-
-.images-container span {
-    font-size: 1.1rem;
-    color: #051937;
-}
-
-
-header {
-    color: #051937;
-}
-
-h1 {
-    margin-left: 15px;
-    margin-top: 15px;
-}
-
-.heading .fa-solid {
-    margin: 8px;
 }
 
 .game-container p {
@@ -171,7 +161,7 @@ button {
 }
 
 .fa-hand-scissors {
-    color: #007CA0;
+    color: #66373D;
 }
 
 #scissors {
@@ -231,6 +221,11 @@ button:hover {
 #information-container:hover {
     display: inline-block;
     /* Show information container when icon is hovered*/
+}
+
+.images-container span {
+    font-size: 1.1rem;
+    color: #051937;
 }
 
 /* media queries */

@@ -121,6 +121,8 @@ ___
 
 I conducted the following testing:
 
+___
+
 __Functionality Testing:__
 
 - Verified that all functionality works
@@ -133,16 +135,16 @@ An alert message appears after the user has made five selections, indicating the
 A "Play" button appears when the number of tries reaches zero, indicating that the game has ended. The user can click the "Play" button to start a new game with five fresh tries.
 
 An information box appears when the user hovers or clicks on an icon, providing details about the game rules and how to play.
-
+___
 __Compatibility Testing:__
 
 - I tested this game playing in different browsers - Chrome, Firefox, Edge
 - I tested this game playing on desktop and mobile, Windows and Android
-
+___
 __Accessibility Testing:__
 
 - Ensured the buttons have aria-label
-
+___
 __Performance Testing:__
 
 Performance testing was done with Lighthouse.
@@ -152,12 +154,12 @@ Mobile
 ![Lighthouse report mobile](readme-media/lighthouse-report-mobile.png)
 Desktop
 ![Lighthouse report desktop](readme-media/lighthouse-report-desktop.png)
-
+___
 I confirmed that the header, instructions, results, footer text are all readable and easy to understand.
 
 I confirmed that the colors and fonts chosen are easy to read. I used WCAG to check the color contrast.
 ![WCAG report](readme-media/wcag-report.png)
-
+___
 
 ## Bugs
 
@@ -171,7 +173,7 @@ __Solved Bugs:__
 __The bugs left to fix__
 
 No unfixed bugs.
-
+___
 ## Validator Testing
 
 HTML: No errors were found when passing through the W3C validator.
@@ -182,7 +184,7 @@ CSS: No errors were found when passing through the Jigsaw validator.
 
 JSHint JavaScript Validator: No critical errors were found when passing through the JSHint.
 ![CSS Validator](readme-media/jshint.png)
-
+___
 ## Deployment
 
 The site was deployed to GitHub pages.
@@ -191,4 +193,4 @@ In the GitHub repository, go to Settings --> In the Code and automation section 
 Refresh the page. The link will be at the top.
 
 The live link can be found here - <https://martsyniukolena.github.io/rock-paper-scissors-lizard-spock-game/>
-
+___
