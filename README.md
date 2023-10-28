@@ -134,5 +134,9 @@ A "Play" button appears when the number of tries reaches zero, indicating that t
 
 An information box appears when the user hovers or clicks on an icon, providing details about the game rules and how to play.
 
+__Compatibility Testing:__
+
+- I tested this game playing in different browsers - Chrome, Firefox, Edge
+- I tested this game playing on desktop and mobile, Windows and Android
 
 
