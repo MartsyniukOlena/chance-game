@@ -2,10 +2,15 @@
 let messageContainer = document.getElementById("message-container");
 function showWelcomeMessage() {
     messageContainer.style.display = "flex";
+
+    // Hide the "Play Again" button when game starts
+    document.getElementById("play-again").style.display = "none";
 }
+
 function hideWelcomeMessage() {
     messageContainer.style.display = "none"; 
 }
+
 showWelcomeMessage();
 
 //Hide the welcome message when the user clicks a "Start game" button

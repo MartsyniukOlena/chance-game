@@ -102,6 +102,6 @@ ___
 
 __Footer (Information Section):__
 
-The footer offers additional information to users, explaining the rules and how to play the game, along with an illustrative icon. This valuable feature ensures that even new users can quickly understand how to play the game, making it accessible to a wide range of individuals, including those who may not be familiar with the RPSSL game rules.
+The footer offers additional information to users, explaining the rules and how to play the game, along with an illustrative icons. This feature ensures that even new users can quickly understand how to play the game, making it accessible to a wide range of individuals, including those who may not be familiar with the RPSSL game rules.
 
 ![footer](readme-media/footer.png)
