@@ -139,4 +139,17 @@ __Compatibility Testing:__
 - I tested this game playing in different browsers - Chrome, Firefox, Edge
 - I tested this game playing on desktop and mobile, Windows and Android
 
+__Accessibility Testing:__
+
+- Ensured the buttons have aria-label
+
+__Performance Testing:__
+
+Performance testing was done with Lighthouse.
+The current results are the following:
+
+Mobile
+![Lighthouse report mobile](readme-media/lighthouse-report-mobile.png)
+Desktop
+![Lighthouse report desktop](readme-media/lighthouse-report-desktop.png)
 
