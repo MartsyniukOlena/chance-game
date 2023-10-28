@@ -8,7 +8,7 @@ function showWelcomeMessage() {
 }
 
 function hideWelcomeMessage() {
-    messageContainer.style.display = "none"; 
+    messageContainer.style.display = "none";
 }
 
 showWelcomeMessage();
@@ -38,11 +38,11 @@ function generateComputerChoice() {
 // Function to determine the winner
 function winner(user, computer) {
     let rules = {
-        rock: {beats: ["scissors", "lizard"], lossesTo: ["paper", "spock"]},
-        paper: { beats: ["rock", "spock"], lossesTo: ["lizard", "scissors"]},
-        scissors: { beats: ["paper", "lizard"], lossesTo: ["rock", "spock"]},
-        spock: { beats: ["scissors", "rock"], lossesTo: ["paper", "lizard"]},
-        lizard: { beats: ["paper", "spock"], lossesTo: ["scissors", "rock"]},
+        rock: { beats: ["scissors", "lizard"], lossesTo: ["paper", "spock"] },
+        paper: { beats: ["rock", "spock"], lossesTo: ["lizard", "scissors"] },
+        scissors: { beats: ["paper", "lizard"], lossesTo: ["rock", "spock"] },
+        spock: { beats: ["scissors", "rock"], lossesTo: ["paper", "lizard"] },
+        lizard: { beats: ["paper", "spock"], lossesTo: ["scissors", "rock"] },
     };
 
     if (user === computer) {
@@ -89,16 +89,16 @@ function endGame() {
         alert("It is a tie!");
     }
 
-// Disable buttons
-for (let choice of choices) {
-    document.getElementById(choice).disabled = true;
-}
-document.getElementById("play-again").style.display = "block";
+    // Disable buttons
+    for (let choice of choices) {
+        document.getElementById(choice).disabled = true;
+    }
+    document.getElementById("play-again").style.display = "block";
 }
 
 // Event listeners for user's choice
 for (let choice of choices) {
-    document.getElementById(choice).addEventListener("click", function() {
+    document.getElementById(choice).addEventListener("click", function () {
         userChoice = choice;
         document.getElementById("user-choice").textContent = userChoice; // Update the user's choice
         computerChoice = generateComputerChoice();
@@ -107,7 +107,7 @@ for (let choice of choices) {
 }
 
 // Event listener for "Play Again" button
-document.getElementById("play-again").addEventListener("click", function() {
+document.getElementById("play-again").addEventListener("click", function () {
     userChoice = "";
     computerChoice = "";
     userScore = 0;
