@@ -153,6 +153,12 @@ Mobile
 Desktop
 ![Lighthouse report desktop](readme-media/lighthouse-report-desktop.png)
 
+I confirmed that the header, instructions, results, footer text are all readable and easy to understand.
+
+I confirmed that the colors and fonts chosen are easy to read. I used WCAG to check the color contrast.
+![WCAG report](readme-media/wcag-report.png)
+
+
 ## Bugs
 
 __Solved Bugs:__
@@ -185,3 +191,4 @@ In the GitHub repository, go to Settings --> In the Code and automation section 
 Refresh the page. The link will be at the top.
 
 The live link can be found here - <https://martsyniukolena.github.io/rock-paper-scissors-lizard-spock-game/>
+
