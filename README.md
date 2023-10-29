@@ -10,11 +10,9 @@ The game fosters strategic thinking, decision-making, and quick reflexes, making
 
 1. To engage users with the RPSLS game and encourage them to visit and play regularly.
 
-2. To increase brand visibility and recognition.
+2. To provide an enjoyable and user-friendly RPSLS game that meets user needs.
 
-3. To provide an enjoyable and user-friendly RPSLS game that meets user needs.
-
-4. To introduce unique features of the RPSLS game to stand out in the market.
+3. To introduce unique features of the RPSLS game to stand out in the market.
 
 >User Needs:
 
@@ -34,7 +32,7 @@ The Rock-Paper-Scissors-Lizard-Spock Game offers several key features for its us
 
 __Welcome Message:__
 
-When a user starts a game, the first they see is a welcome message and a start button. This area serves as an entry point, welcoming users to the game and offering them a clear starting point, enhancing user experience. The user can start a game after pressing the start button.
+When a user starts a game, the first thing they see is a welcome message and a start button. This area serves as an entry point, welcoming users to the game and offering them a clear starting point, enhancing user experience. The user can start a game after pressing the start button.
 
 ![welcome-message](readme-media/welcome-message.png)
 ___
@@ -91,9 +89,9 @@ __Alert Notification:__
 ___
 __Play-Again Button:__
 
-- The "Play Again" button allows you to start a new game round after the current round has concluded. Others are disabled.
+- The "Play Again" button allows you to start a new game round after the current round has concluded. Other buttons are disabled.
 - This feature offers convenience and encourages you to continue playing, ensuring an enjoyable gaming experience.
-- The "Play-Again" button ensures a smooth and continuous gaming experience for the user.
+- The "Play-Again" button ensures a smooth and continuous gaming experience.
 
 ![play-again](readme-media/play-again.png)
 ___
@@ -108,8 +106,8 @@ ___
 
 ## Features Left to Implement
 
-- a user can enter their name;
-- to display a user name instead of "you";
+- users can enter their names;
+- to display users' names instead of "you";
 - to play with a real player;
 - navigate through the game with a keyboard.
 
@@ -124,7 +122,7 @@ __Functionality Testing:__
 - Verified that all functionality works
 - Tested the buttons and if the information displays as expected
 
-Buttons allow the user to make a selection. The user's choice and the computer's choice are displayed on the screen after each selection correctly. The overal result of each selection is correctly displayed. The number of tries subtract after each selection. The score increases and decreases based on it is a win or lose. If it's a tie, the score remains unchanged. The computer's choice is generated randomly.
+Buttons allow the user to make a selection. The user's choice and the computer's choice are displayed correctly on the screen after each selection. The overal result of each selection is correctly displayed. The number of tries subtract after each selection. The score increases and decreases based on it is a win or lose. If it's a tie, the score remains unchanged. The computer's choice is generated randomly.
 
 An alert message appears after the user has made five selections, indicating the final result of the game. The notification declares whether the user or the computer has won based on the overall score and if the result is a tie.
 
@@ -199,9 +197,13 @@ ___
 ## Credits
 
 Colors were generated at [MyColor Space](https://mycolor.space/?hex=%2331809A&sub=1) and were chosen randomly.
+
 Favicon was downloaded at [Icons8](https://icons8.com/icons/set/choice).
+
 Icons were downloaded from [Fontawesome](https://fontawesome.com/search).
+
 To check grammar and edit text, I used [Grammarly](https://app.grammarly.com/).
+
 I referenced the Love Maths project as a guide and Ultimate Rock Paper Scissors.
+
 Game rules were copied from [The Big Bang Theory Wiki](https://bigbangtheory.fandom.com/wiki/Rock,_Paper,_Scissors,_Lizard,_Spock).
-The work I referenced for inspiration was from [CodePen]( https://codepen.io/763004/pen/pPGGyP).
