@@ -202,6 +202,8 @@ Favicon was downloaded at [Icons8](https://icons8.com/icons/set/choice).
 
 Icons were downloaded from [Fontawesome](https://fontawesome.com/search).
 
+Font Family (Cormorant Garamond, serif) was imported from [Google Fonts](https://fonts.google.com/).
+
 To check grammar and edit text, I used [Grammarly](https://app.grammarly.com/).
 
 I referenced the Love Maths project as a guide and Ultimate Rock Paper Scissors.
